@@ -55,7 +55,6 @@ function toArrayOfSquares(arr) {
   return arr.map((x) => x * x);
 }
 
-// 🔧 FIX 1: no-return-assign → возвращаем значение отдельно
 function getMovingSum(arr) {
   let sum = 0;
   return arr.map((x) => {
