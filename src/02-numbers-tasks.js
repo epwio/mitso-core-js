@@ -7,7 +7,7 @@ function getCircleCircumference(radius) {
 }
 
 function getAverage(value1, value2) {
-  // предотвращаем переполнение при больших числах
+  // предотвращаем переполнение при больших
   return value1 / 2 + value2 / 2;
 }
 
