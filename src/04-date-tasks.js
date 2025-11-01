@@ -30,7 +30,7 @@ function angleBetweenClockHands(date) {
   return (angle * Math.PI) / 180;
 }
 
-// ✅ Исправлено: без for...of, используем find()
+// ✅ Исправлено: без for...of, используем find
 function getDay(day, isLeap) {
   const months = [
     { name: 'January', days: 31 },
