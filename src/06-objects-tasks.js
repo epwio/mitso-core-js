@@ -102,7 +102,7 @@ class Selector {
   }
 }
 
-// ✅ Заменяем второй класс объектом
+// ✅ Заменяем второй класс объект
 const cssSelectorBuilder = {
   element(value) {
     const s = new Selector();
